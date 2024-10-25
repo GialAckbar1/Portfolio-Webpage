@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from './home/page.module.css'; // Using CSS modules
-import carpic from './carpic.jpg'
+import carpic from './resources/carpic.jpg'
 import Image from 'next/image';
 
 
@@ -12,10 +12,10 @@ export default function Page() {
       </style>
 
       <div className={styles.sidenav}>
-        <Link href="/home">
+        <Link href="/">
           <span>Home</span>
         </Link>
-        <Link href="/login">
+        <Link href="/contact">
           <span>Contact me</span>
         </Link>
         <Link href="/projects">

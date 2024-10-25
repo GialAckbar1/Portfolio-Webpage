@@ -1,0 +1,91 @@
+.sidenav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 200px; /* Adjust the width to your liking */
+  background-color: #111; /* Sidebar background */
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1; /* Make sure the sidebar stays on top */
+}
+
+.sidenav a {
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+}
+
+/* Hover effect restricted to span inside links */
+.sidenav a span:hover {
+  background-color: #575757;
+  display: block;
+}
+
+/* LinkedIn logo styles */
+.logo1 {
+  width: 160px; /* Adjust size */
+  height: auto;
+  position: absolute;
+  left: 35rem;
+  top: 15rem;
+  cursor: pointer;
+  opacity: 1; /* Default opacity */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo1:hover {
+  transform: scale(1.1);
+  opacity: 0.7; /* Make the logo slightly opaque on hover */
+}
+
+/* GitHub logo styles */
+.logo2 {
+  width: 220px; /* Adjust size */
+  height: auto;
+  position: absolute;
+  left: 46rem;
+  top: 13rem;
+  cursor: pointer;
+  opacity: 1; /* Default opacity */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo2:hover {
+  transform: scale(1.1);
+  opacity: 0.7; /* Make the logo slightly opaque on hover */
+}
+
+/* YouTube logo styles */
+.youtubeLogo {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: 61rem;
+  top: 15rem;
+  background-color: #FF0000;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* YouTube play button styling */
+.playButton {
+  width: 0;
+  height: 0;
+  border-left: 30px solid white;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+/* Hover effect for YouTube logo */
+.youtubeLogo:hover {
+  transform: scale(1.1); /* Slightly enlarge the logo */
+  opacity: 0.7; /* Slightly reduce the opacity on hover */
+}

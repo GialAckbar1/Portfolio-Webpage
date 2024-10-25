@@ -57,9 +57,9 @@ body {
 }
 
 .homeline span {
-  font-size: 6rem; 
+  font-size: 4.5rem; 
   margin-bottom: 0;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 0px;
 }
 
@@ -89,13 +89,16 @@ body {
 
 }
 .college :hover{
-  color: #18453b;  
+  
   transition: transform 0.3s ease, color 0.3s ease;
   transform: scale(1.3);
 
 }
 .school{
   color: hsl(124, 100%, 38%);
+}
+.school :hover{
+  color: #18453B;
 }
 .latestproject{
   position: absolute;
