@@ -1,37 +1,120 @@
+/* Main layout for the page */
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  margin: 0;
+}
+
+/* Flexbox layo
+  display: flex;ut for main content and sidebar */
+.main { /* Flexbox to position sidenav and content side by side */
+}
+
+/* Sidebar styles */
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: #111; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-  }
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 200px; /* Adjust the width to your liking */
+  background-color: #111; /* Sidebar background */
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1; /* Make sure the sidebar stays on top */
+}
+
+/* Sidebar link styles */
+.sidenav a {
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  background-color: #575757;
+}
+
+.content {
+  margin-left: -500px; /* Offset the content by the width of the sidebar */
+  padding: 20px;
+  flex: 1; 
+}
+
+.homeline span, .introduction span {
+  display: inline-block;  
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+  padding-top: 0px;
+  padding-bottom: 0px;
   
-  /* The navigation menu links */
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-  }
+}
+
+.homeline span {
+  font-size: 4.5rem; 
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.homeline span:hover, .introduction span:hover {
+  color: red;  
+  transform: scale(1.1);  
+}
+
+.introduction span {
+  font-size: 4.5rem; 
+  letter-spacing: 2px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.introduction span:first-child:hover {
+  transform: scale(1.3);  
+}
+.college{
+  display: inline-block;  
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  color: black;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+}
+.college :hover{
   
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  /* Style page content */
-  .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+  transition: transform 0.3s ease, color 0.3s ease;
+  transform: scale(1.3);
+
+}
+.school{
+  color: hsl(124, 100%, 38%);
+}
+.school :hover{
+  color: #18453B;
+}
+.latestproject{
+  position: absolute;
+  top: 150px;
+  right: 250px;
+}
+.Car {
+  width: 500px; /* Adjust size */
+  height: auto;
+  position: absolute; /* Positions the image independently */
+  top: 220px; /* Adjust as needed */
+  right: 105px; /* Adjust as needed */
+  z-index: 1; /* Ensures the image stays above other elements */
+  border: 5px solid #000000;
+}
+
+/*ADD THE YOUTUE VIDEO IFRAME*/

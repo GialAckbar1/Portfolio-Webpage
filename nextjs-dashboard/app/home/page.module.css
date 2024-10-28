@@ -1,5 +1,5 @@
 /* Main layout for the page */
-body {
+body{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,9 +7,9 @@ body {
   margin: 0;
 }
 
-/* Flexbox layout for main content and sidebar */
-.main {
-  display: flex; /* Flexbox to position sidenav and content side by side */
+/* Flexbox layo
+  display: flex;ut for main content and sidebar */
+.main { /* Flexbox to position sidenav and content side by side */
 }
 
 /* Sidebar styles */
