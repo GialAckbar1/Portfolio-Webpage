@@ -16,7 +16,7 @@ export default function Page() {
         <Link href="/projects">
           <span>Projects</span>
         </Link>
-        <Link href="/work-experience">
+        <Link href="/workexp">
           <span>Work Experience</span>
         </Link>
       </div>
