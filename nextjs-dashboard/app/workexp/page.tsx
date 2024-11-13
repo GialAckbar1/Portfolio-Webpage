@@ -11,7 +11,10 @@ export default function Page(){
         <title>
             Work Experiences
         </title>
-        
+        <h1 className ={styles.title}>
+        Work Experiences
+      </h1>
+
         <div className={styles.sidenav}>
         <Link href="/">
           <span>Home</span>
@@ -26,7 +29,7 @@ export default function Page(){
           <span>Work Experience</span>
         </Link>
       </div>
-
+      
 
 
 
