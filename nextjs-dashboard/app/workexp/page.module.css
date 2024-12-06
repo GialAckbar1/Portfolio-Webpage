@@ -1,13 +1,16 @@
-/* Centering the title text */
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+
+/* Container for the title */
 .titleContainer {
-  
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px; /* Adjust for spacing above the title */
+  justify-content: flex-start; /* Align items to the left */
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  margin-top: 10px; /* Adjust spacing above the title */
+  margin-left: 50px; /* Explicit margin */
+
 }
 
-/* Styling individual title spans */
+/* Title styling */
 .title {
   font-family: "Alumni Sans Pinstripe", sans-serif;
   font-size: 6rem;
@@ -15,13 +18,17 @@
   display: inline-block;
   text-align: center;
   transition: color 0.3s ease;
+  margin-left: 50px; /* Explicit margin */
+  position: relative; /* Ensure consistent layout */
+  
 }
 
 /* Apply hover effect to each letter individually */
 .title span {
-  
   display: inline-block; /* Ensures transform works on inline elements */
   transition: transform 0.3s ease, color 0.3s ease;
+  user-select: none; /* Disables text selection */
+  
 }
 
 .title span:hover {

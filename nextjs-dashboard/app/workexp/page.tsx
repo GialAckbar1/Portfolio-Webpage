@@ -1,12 +1,26 @@
+"use client"; // Add this to make the component a client component
+
 import Link from 'next/link';
 import styles from './page.module.css'; // Using CSS modules
+import { useEffect, useState } from 'react';
 
 export default function Page() {
+    const [hydrated, setHydrated] = useState(false);
+
+    useEffect(() => {
+        setHydrated(true); // Ensures layout adjustments happen only after hydration
+    }, []);
+
     return (
         <main>
             <title>Work Experiences</title>
             
-            <div className={styles.titleContainer}>
+            <div
+                className={styles.titleContainer}
+                style={{
+                    marginLeft: hydrated ? '40px' : '0px', // Apply the correct margin only after hydration
+                }}
+            >
                 <h1 className={styles.title}>
                     <span>W</span>
                     <span>o</span>
