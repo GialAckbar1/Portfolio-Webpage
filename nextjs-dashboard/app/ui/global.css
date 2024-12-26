@@ -14,61 +14,14 @@ body {
     display: flex; /* Flexbox to position sidenav and content side by side */
 }
 
-/* Sidebar styles */
-.sidenav {
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 200px; /* Adjust the width to your liking */
-    background-color: #111; /* Sidebar background */
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    z-index: 1; /* Make sure the sidebar stays on top */
-}
 
-/* Sidebar link styles */
-.sidenav a {
-    padding: 8px 16px;
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-    display: block;
-}
-
-.sidenav a:hover {
-    background-color: #575757;
-}
 
 .content {
-    margin-left: 200px; /* Offset the content by the width of the sidebar */
+    margin-left: 200px; 
     padding: 20px;
     flex: 1; 
 }
 
-.homeline span,
-.introduction span {
-    display: inline-block;  
-    font-family: "Alumni Sans Pinstripe", sans-serif;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    transition: transform 0.3s ease, color 0.3s ease;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-.homeline span {
-    font-size: 4.5rem; 
-    margin-bottom: 0;
-    padding-top: 20px;
-}
-
-.homeline span:hover,
-.introduction span:hover {
-    color: red;  
-    transform: scale(1.1);  
-}
 
 .introduction span {
     font-size: 4.5rem; 
