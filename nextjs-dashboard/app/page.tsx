@@ -25,7 +25,7 @@ export default function Page() {
 
       
       <div className={styles.Cartitle}>
-        <Textfloat x = "2023 latest project"/>
+        <Textfloat x = "2023 latest summer project"/>
       </div>
       </h2>
       
