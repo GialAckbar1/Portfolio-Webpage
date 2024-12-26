@@ -1,5 +1,5 @@
 /* Main layout for the page */
-.body {
+body {
   display: flex;
   justify-content: flex-start; /* Aligns content to the top-left */
   align-items: flex-start;
