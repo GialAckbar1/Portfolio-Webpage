@@ -1,7 +1,11 @@
-/* Textfloat.module.css */
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
 
-/* Textfloat.module.css */
+@font-face { 
+  font-family: "Alumni Sans Pinstripe";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/AlumniSansPinstripe-Regular.ttf) format("truetype");
+}
+
 .textfloat > span {
   display: inline-block;  
   font-family: "Alumni Sans Pinstripe", sans-serif;
