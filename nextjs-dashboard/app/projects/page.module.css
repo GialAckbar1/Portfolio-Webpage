@@ -1,0 +1,35 @@
+.main{
+    display:flex;
+    
+}
+.mainheader{
+    position: relative;
+    margin-left: 400px
+}
+.projectheader{
+    position: relative;
+    margin-left: 358px;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    top: 15px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.car{
+    position: relative;
+    height: auto;
+    margin-top: 10px;
+    width: 400px;
+    margin-left: 400px;
+    border: 5px solid black;
+    cursor: pointer;
+    opacity: 1;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+
+
+    
+}
+.car:hover{
+    transform: scale(1.1);
+    opacity: .7;
+    background-color: rgb(203, 203, 203);
+}

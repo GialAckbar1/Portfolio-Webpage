@@ -8,6 +8,20 @@ export default function Page() {
             <h1 className={styles.title}>
             <Textfloat x = "Work Experience"/>
             </h1>
+            <ul>
+                <li className = {styles.worklist} >
+                    Lagrange Theater team member
+                    <ul>
+                        <li>
+                        Delivered exceptional customer service and facilitated smooth day-to-day operations.
+                        </li>
+                        <li>
+                        Assisted in maintaining a clean, safe and functional environment, enhancing customer
+                        satisfaction.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
             <section>
             <Sidebar />  
             </section>

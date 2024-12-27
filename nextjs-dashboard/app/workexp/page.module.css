@@ -1,12 +1,17 @@
 .main {
     display: flex;
-    justify-content: flex-start; /* Aligns content to the top-left */
+    justify-content: flex-start; 
     align-items: flex-start;
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
     margin: 0;
-    overflow: hidden; /* Prevents scrolling if content overflows */
-  }
-
+    overflow: hidden;}
+.worklist{
+  position:relative;
+  margin-left:300px;
+  font-size:2rem;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight:bolder;
+}
   .title{
     position: relative;
     margin-left: 700px;

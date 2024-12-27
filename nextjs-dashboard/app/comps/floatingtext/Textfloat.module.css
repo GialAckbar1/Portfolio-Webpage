@@ -18,6 +18,6 @@
 }
 
 .textfloat > span:hover {
-  color: red;  
+  color: rgb(6, 128, 0);  
   transform: scale(1.1);  
 }
