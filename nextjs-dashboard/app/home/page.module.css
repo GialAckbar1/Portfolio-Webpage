@@ -1,4 +1,11 @@
-/* Main layout for the page */
+@font-face { 
+  font-family: "Alumni Sans Pinstripe";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../comps/fonts/AlumniSansPinstripe-Regular.ttf) format("truetype");
+}
+
+
 .main {
   display: flex;
   justify-content: flex-start; 
@@ -21,11 +28,40 @@
   }
 
 .Car {
-  width: 600px; /* Adjust size */
+  width: 600px; 
   height: auto;
-  position: absolute; /* Positions the image independently */
+  position: absolute;
   top: 140px; /* Adjust as needed */
   right: 40px; /* Adjust as needed */
-  z-index: 1; /* Ensures the image stays above other elements */
+  z-index: 1; 
   border: 5px solid #000000;
+  border-radius: 5px;
+}
+.button {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+  text-decoration: none; 
+  position: absolute;
+  width: 250px;
+  height: 70px;
+  top: 400px;
+  left: 310px;
+  font-size: 2.6rem;
+  background-color: white;
+  border: 2px solid #000; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease-in-out, transform 1.0s ease-in-out, border-color 0.3s ease-in-out;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  color: #000;
+}
+
+.button:hover {
+  background-color: rgb(6, 128, 0); 
+  border-color: rgb(255, 255, 255);
+  transform: scale(1.05); 
+
 }

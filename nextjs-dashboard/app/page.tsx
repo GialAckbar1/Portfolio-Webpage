@@ -29,6 +29,10 @@ export default function Page() {
       </div>
       </h2>
       
+   
+       
+      <a className={styles.button} href="mailto:erenabik122@gmail.com">Contact Me</a>
+      
       
 
 

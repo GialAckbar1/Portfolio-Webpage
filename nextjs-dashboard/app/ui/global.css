@@ -9,9 +9,8 @@ body {
     margin: 0;
 }
 
-/* Flexbox layout for main content and sidebar */
 .main {
-    display: flex; /* Flexbox to position sidenav and content side by side */
+    display: flex; 
 }
 
 
@@ -58,14 +57,5 @@ body {
     right: 250px;
 }
 
-.Car {
-    width: 500px; /* Adjust size */
-    height: auto;
-    position: absolute; /* Positions the image independently */
-    top: 220px; /* Adjust as needed */
-    right: 105px; /* Adjust as needed */
-    z-index: 1; /* Ensures the image stays above other elements */
-    border: 5px solid #000000;
-}
 
 /* A
