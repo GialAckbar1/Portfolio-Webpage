@@ -18,6 +18,7 @@ export default function Sidebar() {
               <div><Link href = "/contact" className={styles.links}>Contact Info</Link></div>
               <div><Link href = "/projects" className={styles.links} >Projects</Link></div>
               <div><Link href = "/workexp" className={styles.links} > Past jobs</Link></div>
+              <div><Link href = "/about" className={styles.links}>About me</Link></div>
           </ul>
 
          <div className = {styles.pulltab}>

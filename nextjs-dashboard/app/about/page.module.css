@@ -1,0 +1,56 @@
+.header{
+    position: absolute;
+    margin-left: 340px;
+    font-size: 3.5rem;
+}
+.header2{
+    position: absolute;
+    margin-left: 335px;
+    font-size: 3.5rem;
+    margin-top:290px;
+    font-family: "Alumni Sans Pinstripe";
+
+}
+.para{
+    position: absolute;
+    margin-left: 340px;
+    width: 500px;
+    margin-top: 130px;
+    font-family: "Alumni Sans Pinstripe";
+    font-weight: 500;
+    font-size: 1.35rem;
+}
+@font-face { 
+    font-family: "Alumni Sans Pinstripe";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../comps/fonts/AlumniSansPinstripe-Regular.ttf) format("truetype");
+  }
+.bar1{
+    position:absolute;
+    margin-top:350px;
+    margin-left:340px;
+    display: flex;
+    gap: 20px;
+}
+.bar2{
+    position:absolute;
+    margin-top:420px;
+    margin-left:340px;
+    display: flex;
+    gap: 20px;
+}
+.bar3{
+    position:absolute;
+    margin-top:490px;
+    margin-left:340px;
+    display: flex;
+    gap: 20px;
+}
+.bar4{
+    position:absolute;
+    margin-top:560px;
+    margin-left:340px;
+    display: flex;
+    gap: 20px;
+}
