@@ -28,8 +28,8 @@ body{
     font-family: "Alumni Sans Pinstripe";
     font-style: normal;
     font-weight: 400;
-    src: url(../comps/fonts/AlumniSansPinstripe-Regular.ttf) format("truetype");
-  }
+    src: url(/nextjs-dashboard/app/comps/fonts/AlumniSansPinstripe-Regular.ttf) format("truetype");
+}
 .bar1{
     position:absolute;
     margin-top:350px;
