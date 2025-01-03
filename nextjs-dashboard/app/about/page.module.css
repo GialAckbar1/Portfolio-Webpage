@@ -1,5 +1,8 @@
-body{
-    height: 900px;
+.makepagelonger{
+    margin-top:900px;
+    position: absolute;
+    color:white;
+
 }
 
 .header{

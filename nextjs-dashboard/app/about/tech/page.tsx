@@ -24,7 +24,7 @@ export default function Page(){
 
         
         <div className={styles.bar1}>
-        <Progressbar x = "06.2024" y="#f14e32" n="Git"/>
+        <Progressbar x = "06.2024" y="#f14e32	" n="Git"/>
         </div>
         <div className={styles.bar2}>
         <Progressbar x = "06.2024" y="#61dbfb" n="React"/>
@@ -38,7 +38,7 @@ export default function Page(){
         Languages
         </Link>
             
-        
+        <div className={styles.makepagelonger}>0</div>
         </main>
     )
 

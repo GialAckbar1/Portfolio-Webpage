@@ -40,7 +40,8 @@ export default function Page(){
         <Link href = "/about/tech" className={styles.button}>
         Technologies
         </Link>
-            
+        <div className={styles.makepagelonger}>0</div>
+
         
         </main>
 
